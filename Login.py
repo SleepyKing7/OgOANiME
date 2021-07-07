@@ -24,7 +24,7 @@ def submit():
  
     name=name_var.get()
     password=passw_var.get()
-    command = "echo {} \n {} >> logins".format(name,password) #TODO: add linux support / touch support
+    command = "echo {} \n {} >> logins".format(name,password)
     system(command)
      
      
